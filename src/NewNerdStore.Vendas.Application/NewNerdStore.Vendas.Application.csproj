@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NewNerdStore.Core\NewNerdStore.Core.csproj" />
+      <ProjectReference Include="..\NewNerdStore.Vendas.Domain\NewNerdStore.Vendas.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Events\" />
+      <Folder Include="Queries\" />
+    </ItemGroup>
 
 </Project>

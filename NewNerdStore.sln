@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1022
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{94C3128E-7B2C-43F8-9027-AC99C9E86C87}"
 EndProject
@@ -15,19 +15,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{87C354D5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewNerdStore.Catalogo.Domain", "src\NewNerdStore.Catalogo.Domain\NewNerdStore.Catalogo.Domain.csproj", "{04EAC585-C65C-4DD1-A163-B9D122D8B6DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewNerdStore.Core", "src\NewNerdStore.Core\NewNerdStore.Core.csproj", "{D7AB005C-EB9E-41E7-B2D0-74171C056A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewNerdStore.Core", "src\NewNerdStore.Core\NewNerdStore.Core.csproj", "{D7AB005C-EB9E-41E7-B2D0-74171C056A81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewNerdStore.Catalogo.Data", "src\NewNerdStore.Catalogo.Data\NewNerdStore.Catalogo.Data.csproj", "{9BF6D53C-8CA3-4CB9-87F9-DF0D79D38A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewNerdStore.Catalogo.Data", "src\NewNerdStore.Catalogo.Data\NewNerdStore.Catalogo.Data.csproj", "{9BF6D53C-8CA3-4CB9-87F9-DF0D79D38A80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewNerdStore.Catalogo.Application", "src\NewNerdStore.Catalogo.Application\NewNerdStore.Catalogo.Application.csproj", "{4041BE4F-EA4F-4465-8439-95978F9E5DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewNerdStore.Catalogo.Application", "src\NewNerdStore.Catalogo.Application\NewNerdStore.Catalogo.Application.csproj", "{4041BE4F-EA4F-4465-8439-95978F9E5DBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewNerdStore.WebApp.MVC", "src\NewNerdStore.WebApp.MVC\NewNerdStore.WebApp.MVC.csproj", "{2DA3ECB0-8156-44DA-BF0C-8F00F3DBBDB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewNerdStore.WebApp.MVC", "src\NewNerdStore.WebApp.MVC\NewNerdStore.WebApp.MVC.csproj", "{2DA3ECB0-8156-44DA-BF0C-8F00F3DBBDB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendas", "Vendas", "{5FED26DC-DCDC-483A-8BD0-37FC2F173894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewNerdStore.Vendas.Domain", "src\NewNerdStore.Vendas.Domain\NewNerdStore.Vendas.Domain.csproj", "{DB5CD73E-DBDD-4211-B629-9810AD76BAFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewNerdStore.Vendas.Domain", "src\NewNerdStore.Vendas.Domain\NewNerdStore.Vendas.Domain.csproj", "{DB5CD73E-DBDD-4211-B629-9810AD76BAFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewNerdStore.Vendas.Application", "src\NewNerdStore.Vendas.Application\NewNerdStore.Vendas.Application.csproj", "{F340F9D0-0A47-4916-852D-D3A4589764D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewNerdStore.Vendas.Application", "src\NewNerdStore.Vendas.Application\NewNerdStore.Vendas.Application.csproj", "{F340F9D0-0A47-4916-852D-D3A4589764D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewNerdStore.Vendas.Data", "src\NewNerdStore.Vendas.Data\NewNerdStore.Vendas.Data.csproj", "{82590C7C-35F1-4D12-A4AD-1F34BCA71B24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{F340F9D0-0A47-4916-852D-D3A4589764D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F340F9D0-0A47-4916-852D-D3A4589764D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F340F9D0-0A47-4916-852D-D3A4589764D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82590C7C-35F1-4D12-A4AD-1F34BCA71B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82590C7C-35F1-4D12-A4AD-1F34BCA71B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82590C7C-35F1-4D12-A4AD-1F34BCA71B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82590C7C-35F1-4D12-A4AD-1F34BCA71B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{5FED26DC-DCDC-483A-8BD0-37FC2F173894} = {94C3128E-7B2C-43F8-9027-AC99C9E86C87}
 		{DB5CD73E-DBDD-4211-B629-9810AD76BAFE} = {5FED26DC-DCDC-483A-8BD0-37FC2F173894}
 		{F340F9D0-0A47-4916-852D-D3A4589764D8} = {5FED26DC-DCDC-483A-8BD0-37FC2F173894}
+		{82590C7C-35F1-4D12-A4AD-1F34BCA71B24} = {5FED26DC-DCDC-483A-8BD0-37FC2F173894}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FC80A54-9952-420C-B5CB-380D8731C773}
